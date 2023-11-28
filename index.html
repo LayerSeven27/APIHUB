@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps API (Cliente Aleatorio)</title>
+</head>
+<body>
+
+    <script>
+        // Función para inicializar el mapa
+        function initializeMap() {
+            // Coordenadas para el centro del mapa (reemplaza con las coordenadas deseadas)
+            const centerLocation = { lat: 41.403603, lng: 2.174275 }; 
+            // Crear un objeto de mapa
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: centerLocation,
+                zoom: 15
+            });
+
+            // Puedes agregar más funcionalidades del mapa según tus necesidades
+        }
+
+        // Llamar a la función al cargar la página
+        initializeMap();
+    </script>
+
+    <!-- Agregar la referencia al script de la API de Google Maps sin clave -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=ByLayerSeven&callback=initializeMap" async defer></script>
+
+    <!-- Contenedor para el mapa -->
+    <div id="map" style="height: 400px;"></div>
+
+</body>
+</html>
