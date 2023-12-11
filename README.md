@@ -15,6 +15,9 @@ Users take the reins! Evaluate suggestions wisely; actions based on the text are
 
 This program is a tech-savvy detective! 🕵️‍♂️ It sets up a PHP web server, checks the maps outside the domain, and, if all's well, redirects traffic locally. Be a responsible user—no budget surprises for API key owners! 😅
 
+![api](https://github.com/LayerSeven27/APIHUB/assets/151947844/838b355f-b206-47ce-83df-1654507ef83c)
+
+
 💡 Why This Approach?
 
 Analyzing API key requests directly? Nah! This program acts like a savvy human, ensuring a longer lifespan and adaptability. Smart move, right? 🔄
